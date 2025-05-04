@@ -1,87 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>When Structure Beats the Model</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background: #ffffff;
-            color: #222;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .cover {
-            max-width: 600px;
-            margin: 20px auto;
-        }
-        h1 {
-            font-size: 2.2em;
-            margin: 25px 0 10px;
-        }
-        p.description {
-            max-width: 700px;
-            margin: 0 auto 30px;
-            font-size: 1em;
-            line-height: 1.6;
-            color: #555;
-        }
-        .btn {
-            display: inline-block;
-            margin: 10px;
-            padding: 14px 30px;
-            background: #000;
-            color: #fff;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.3s;
-        }
-        .btn:hover {
-            background: #333;
-        }
-        .license {
-            margin-top: 40px;
-            font-size: 0.85em;
-            color: #777;
-        }
-        .license img {
-            margin-top: 10px;
-        }
-        .footer {
-            margin-top: 20px;
-        }
-        .footer a {
-            color: #555;
-            text-decoration: none;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>When Structure Beats the Model</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .cover {
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+      margin: 0 auto 30px;
+      display: block;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.4em;
+    }
+
+    p.subtitle {
+      font-style: italic;
+      margin-top: 0;
+      margin-bottom: 1.5em;
+      color: #444;
+    }
+
+    .description {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 2em;
+    }
+
+    .btn {
+      display: block;
+      margin: 12px auto;
+      padding: 14px 28px;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      max-width: 90%;
+    }
+
+    .btn:hover {
+      background-color: #333;
+    }
+
+    .license {
+      font-size: 0.85em;
+      color: #888;
+      margin-top: 40px;
+    }
+
+    .license img {
+      margin-top: 10px;
+    }
+
+    .footer {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    .footer a {
+      color: #555;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 2.4rem;
+      }
+
+      .btn {
+        display: inline-block;
+        margin: 0 12px 12px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <img src="cover.png" alt="Book Cover" class="cover">
+  <div class="container">
+    <img src="cover.png" alt="Book Cover" class="cover" />
     <h1>When Structure Beats the Model</h1>
-    <p><em>What Really Moves Markets When Theory Fails</em></p>
+    <p class="subtitle">What Really Moves Markets When Theory Fails</p>
     <p class="description">
-        This book explores how digital assets, decentralized protocols, and behavioral market dynamics are reshaping finance.
-        It connects macro theory, crisis mechanics, and crypto infrastructure to explain how trust, code, and structure now govern value.
+      This book explores how digital assets, decentralized protocols, and behavioral market dynamics are reshaping finance.<br/>
+      It connects macro theory, crisis mechanics, and crypto infrastructure to explain how trust, code, and structure now govern value.
     </p>
-    <a href="When-Structure-Beats-Model.pdf" class="btn" target="_blank">📥 Download English Version (coming soon)</a>
+
+    <a href="#" class="btn">📥 Download English Version (coming soon)</a>
     <a href="When-Structure-Beats-Model(RU).pdf" class="btn" target="_blank">📥 Скачать на русском</a>
 
     <div class="license">
-        <p>This work is licensed under CC BY-NC-ND 4.0.</p>
-        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
-            <img src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" alt="License">
-        </a>
+      <p>This work is licensed under CC BY-NC-ND 4.0.</p>
+      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
+        <img src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" alt="License" />
+      </a>
     </div>
 
     <div class="footer">
-        <p>© 2025 Vadim Tikhonov | <a href="https://www.linkedin.com/in/vadim-tikhonov/" target="_blank">LinkedIn</a></p>
+      <p>© 2025 Vadim Tikhonov | <a href="https://www.linkedin.com/in/vadim-tikhonov/" target="_blank">LinkedIn</a></p>
     </div>
+  </div>
 </body>
 </html>
